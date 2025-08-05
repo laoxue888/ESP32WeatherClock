@@ -1,0 +1,8 @@
+menu "DeployAlgorithm Configuration"
+    config SENSORLIB_ESP_IDF_NEW_API
+        int "Sensorlib esp idf new api"
+        default 1
+        help
+            SENSORLIB_ESP_IDF_NEW_API
+
+endmenu

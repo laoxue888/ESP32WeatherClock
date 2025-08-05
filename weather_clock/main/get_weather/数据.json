@@ -1,0 +1,65 @@
+{
+    "results": [
+        {
+            "location": {
+                "id": "WM6N2PM3WY2K",
+                "name": "成都",
+                "country": "CN",
+                "path": "成都,成都,四川,中国",
+                "timezone": "Asia/Shanghai",
+                "timezone_offset": "+08:00"
+                        },
+            "daily": [
+                {
+                    "date": "2025-01-19",
+                    "text_day": "阴",
+                    "code_day": "9",
+                    "text_night": "阴",
+                    "code_night": "9",
+                    "high": "13",
+                    "low": "3",
+                    "rainfall": "0.00",
+                    "precip": "0.09",
+                    "wind_direction": "南",
+                    "wind_direction_degree": "177",
+                    "wind_speed": "2.81",
+                    "wind_scale": "1",
+                    "humidity": "97"
+                },
+                {
+                    "date": "2025-01-20",
+                    "text_day": "阴",
+                    "code_day": "9",
+                    "text_night": "多云",
+                    "code_night": "4",
+                    "high": "16",
+                    "low": "6",
+                    "rainfall": "0.00",
+                    "precip": "0.00",
+                    "wind_direction": "西南",
+                    "wind_direction_degree": "205",
+                    "wind_speed": "2.38",
+                    "wind_scale": "1",
+                    "humidity": "94"
+                },
+                {
+                    "date": "2025-01-21",
+                    "text_day": "阴",
+                    "code_day": "9",
+                    "text_night": "阴",
+                    "code_night": "9",
+                    "high": "14",
+                    "low": "9",
+                    "rainfall": "0.00",
+                    "precip": "0.00",
+                    "wind_direction": "西",
+                    "wind_direction_degree": "290",
+                    "wind_speed": "2.7",
+                    "wind_scale": "1",
+                    "humidity": "94"
+                }
+            ],
+            "last_update": "2025-01-19T08:00:00+08:00"
+        }
+    ]
+}

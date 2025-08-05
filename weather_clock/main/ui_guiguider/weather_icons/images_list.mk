@@ -1,0 +1,1 @@
+GEN_CSRCS += w38.c w4.c w5.c w6.c w7.c w8.c w9.c w99.c w0.c w10.c w11.c w12.c w13.c w14.c w15.c w16.c w19.c w20.c w21.c w22.c w23.c w24.c w25.c w26.c w27.c w28.c w29.c w30.c w31.c w32.c w33.c w34.c w35.c w36.c w37.c
