@@ -11,6 +11,13 @@
 
 本项目是一个简单的天气时钟案例，可以显示当前时间、温度、湿度、天气状态等信息，另外可以显示摄像头拍摄的画面、QMI8658传感器采集的姿态信息。
 
+code：[https://github.com/laoxue888/ESP32WeatherClock](https://github.com/laoxue888/ESP32WeatherClock)
+
+update：
+
+- [2025-8-5:☔暴雨宅家无聊？用ESP32做个超实用天气时钟！](https://www.bilibili.com/video/BV1BGtEzNEEW/?spm_id_from=333.1387.homepage.video_card.click&vd_source=3bf4271e80f39cfee030114782480463)
+
+
 ## 开发环境
 
 - ESP-IDF v5.4
