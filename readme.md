@@ -33,6 +33,7 @@ sudo usermod -aG dialout user	//user替换为自己的用户名
 reboot							//要重启一下才生效
 ```
 
+
 ## 参考项目
 
 - [https://github.com/78/xiaozhi-esp32](https://github.com/78/xiaozhi-esp32)
