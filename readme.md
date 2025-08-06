@@ -20,13 +20,18 @@ update：
 
 ## 开发环境
 
-- ESP-IDF v5.4
+- ESP-IDF v5.5
 - LVGL v8.3
-- Ubuntu 22.04
+- Ubuntu 24.04
+> 注意：不用管理员身份运行vscode
 
 ![alt text](images/image-4.png)
 
-
+```shell
+# 配置让用户可用usb的权限
+sudo usermod -aG dialout user	//user替换为自己的用户名
+reboot							//要重启一下才生效
+```
 
 ## 参考项目
 

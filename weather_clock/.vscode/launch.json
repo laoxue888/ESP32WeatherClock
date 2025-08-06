@@ -1,3 +1,4 @@
+/*
 {
   "version": "0.2.0",
   "configurations": [
@@ -10,6 +11,34 @@
       "type": "espidf",
       "name": "Launch",
       "request": "launch"
+    }
+  ]
+}*/
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+    "name": "ESP32 GDB",
+    "type": "cppdbg",
+    "request": "launch",
+    "MIMode": "gdb",
+    "miDebuggerPath": "${command:espIdf.getToolchainGdb}",
+    "program": "${workspaceFolder}/build/${command:espIdf.getProjectName}.elf",
+    "windows": {
+                "program": "${workspaceFolder}\\build\\${command:espIdf.getProjectName}.elf"
+                },
+    "cwd": "${workspaceFolder}",
+    // "environment": [{ "name": "PATH", "value": "${config:idf.customExtraPaths}" }], //source /home/xsf/esp/v5.5/esp-idf/export.sh
+    "setupCommands": [
+              { "text": "target remote :3333" },
+              { "text": "set remote hardware-watchpoint-limit 2"},
+              { "text": "mon reset halt" },
+              { "text": "thb app_main" },
+              { "text": "flushregs" } ],
+    "externalConsole": false,
+    "logging": {
+              "engineLogging": true
+              }
     }
   ]
 }

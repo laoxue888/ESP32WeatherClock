@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "ms-vscode.makefile-tools"
+        "ms-vscode.makefile-tools",
+        "ms-vscode.cmake-tools",
+        "baiducomate.comate"
     ]
 }
