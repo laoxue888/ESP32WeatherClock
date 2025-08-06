@@ -1,3 +1,5 @@
 
 /.vscode
 /debug.log
+/managed_components
+/build
